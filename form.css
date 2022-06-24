@@ -1,0 +1,29 @@
+.content {
+margin-left: 400px;
+margin-right: 250px;
+}
+#tab td{
+text-align:right;
+}
+.textarea , .text{
+width: 200px;
+height:70px;
+overflow-y:scroll;
+
+}
+#email, #wname, #postcode {
+width:200px
+}
+#table2 #table1 td {
+border:1px solid black;
+
+}
+#table2 #table1 th {
+border:1px solid black;
+}
+#table1 {
+border: 1px solid black;
+}
+ #tabl th,td{
+text-align: left;
+}

@@ -1,0 +1,22 @@
+*{
+margin:0;
+padding:0;
+}
+.name{
+font-family: Serif;
+font-weight: bold;
+color: #66CCFF;
+font-size: 20px;
+}
+img[src] {
+width: 200px;
+height:200 px;
+padding: 10px;
+}
+.jumbotron{
+margin: 5px 5px;
+}
+h2, h1, h3, p{
+padding: 10px:
+margin: 10px;
+}

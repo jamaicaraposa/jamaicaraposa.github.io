@@ -1,0 +1,148 @@
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport"content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>activity5(bootsrap)</title>
+
+		<link rel="stylesheet" href="form.css">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+		<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+<div class="table-responsive">
+<form action="/action_page.php" target="_self">
+<div class="content">
+<fieldset id="myfieldset"
+style="padding:50px; padding-top:10px; border:1px solid black;width:500px;">
+<table id="tab">
+<tr>
+<td> <label for="wname">Name:</label></td>
+<td> <input type="text" id="wname" name="wname" value="Walaa Brody"></td><br>
+</tr>
+<tr>
+<td><label for="email">Email:</label></td>
+<td><input type="email" id="email" name="email" value=" w.brody@wridget-sales.com"></td><br>
+</tr>
+<tr>
+<td><label for="address" > Address:</label></td>
+<td><textarea class="textarea" name="address">
+162 Main Road
+Rondebosch 
+Cape Town
+</textarea></td> <br>
+<tr>
+<td><label for="postcode"> Postcode:</label></td>
+<td><input type="text" id="postcode" name="postcode" value="7700" ></td>
+</tr>
+</table> <br>  <br>
+<div id="table2">
+<table id="table1">
+<thead>
+<tr>
+<th> Product</th>
+<th> Part Number</th>
+<th> Quantity</th>
+<th> Unit Price</th>
+<th> Subtotal</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td> Econo box</td>
+<td> LB100</td>
+<td> <input type="text" value="3"  size="3"></td>
+<td> R5</td>
+<td> <input type=" text" value="R15" size="3"></td>
+</tr>
+<tr>
+<td> Standard box</td>
+<td> LB200</td>
+<td> <input type="text" value="4" size="3"> </td>
+<td> R10</td>
+<td> <input type="text" value="R40" size="3"></td>
+</tr>
+<tr>
+<td> Premium Box/TD></td>
+<td> LB400</td>
+<td> <input type="text" value="1" size="3"></td>
+<td> R15</td>
+<td align="center"> <input type="text" value="R15" size="3"></td>
+</tr>
+<tr>
+<td> Deluxe Box/TD> </td>
+<td> LB400</td>
+<td> <input type="text" value="0" size="3"></td>
+<td> R20</td>
+<td> <input type="text" size="3"></td>
+</tr>
+<tr>
+<td> Super Deluxe Box/TD> </td>
+<td> LB500</td>
+<td> <input type="text" value="1" size="3"></td>
+<td> R30</td>
+<td> <input type="text" value="R30" size="3"></td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td colspan="4" align="right"> Total</td>
+<td > <input type="text" value="R100" size="3"></td>
+</tr>
+</div>
+</tfoot>
+</table> 
+<div id="table3">
+<table id="tabl">
+<tr>
+<th colspan="3"> Credit Card Details </th>
+</tr>
+<tr>
+<td colspan="3" ><label for="card type"> Card Type:</label></td><br>
+</tr>
+<tr>
+<td ><input type="radio" id="mastercard" name="card" value="mastercard" checked>
+<label for="mastercard"> Mastercard</label> </td>
+<td><label for="card number"> Card Number:</label></td>
+<td><input type="text" id="card number" name="cardnumber" value="45645"><br></td>
+</tr>
+<tr>
+<td><input type="radio" id="visa" name="card" value="visa">
+<label for="visa"> Visa</label></td>
+<td><label for="expiry date"> Expiry Date:</label></td>
+<td><input type="text" id="expiry date" name="card" value="03/99" size="10"> </td><br>
+</tr>
+<tr>
+<td colspan="3"><input type="radio" id="american express" name="card" value="american express">
+<label for="american express"> American Express</label></td> <br>
+</tr>
+<tr>
+<td colspan="3"><input type="radio" id="dinners club" name="card" value="dinners club">
+<label for="dinners club"> Dinners Club</label></td><br>
+</tr>
+<tr>
+<td><label for="delivery address"> Delivery Address:</label></td>
+<td colspan="2"><textarea class="text" name="delivery">
+162 Main Road
+Rondelbosch
+Cape Town
+</textarea></td>
+</tr>
+</table>
+</table <br> <br>
+</div>
+<table>
+<tr>
+<td ><input type="submit" value="Send Order" ></td>
+<td ><input type="reset" value="Clear Form"></td>
+</tr>
+</table>
+</fieldset>
+</div>
+</form>
+<br><br>
+</div>
+<p><a href="index.html"> RETURN HOME</a> <p>
+</body>
+</html>

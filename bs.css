@@ -1,0 +1,16 @@
+*{
+margin:0;
+padding:0;
+}
+
+img[src] {
+width: 200px;
+height:200 px;
+padding: 10px;
+}
+.jumbotron{
+margin: 5px 5px;
+padding: 10px:
+color: #A0A0DB
+}
+

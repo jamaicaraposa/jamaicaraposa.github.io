@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title> Palindrome </title>
+</head>
+<body>
+Enter any string:
+<input type="text" id="a">
+<input type="submit" onclick="pal()" value="submit">
+<script type="text/javascript">
+	function pal()
+		{
+		var x=document.getElementById("a").value; 
+		var res="";
+		for (i=x.length-1; i>=0; i--)
+			{
+			res+=x[i];
+			}
+			if (x==res)
+				{
+				alert("Palindrome String");
+				console.log("Palindrome");
+				}
+			else
+				{
+				alert("Not Palindrome");
+				console.log("not");
+				}
+		}
+</script>
+<br><br>
+<p> <a href="index.html"> RETURN HOME </a> </p>
+</body>
+</html>
+
